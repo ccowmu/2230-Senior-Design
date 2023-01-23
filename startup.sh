@@ -21,7 +21,7 @@ else
 fi
 
 # link client scripts
-echo "[STEP 3/3] Linking client scripts...
+echo "[STEP 3/3] Linking client scripts..."
 cd goodfet/client && sudo make link
 if ["$?" -eq "0"]
 then
